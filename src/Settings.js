@@ -7,11 +7,11 @@ const value = Object.seal({
     listenerMaxClientDormancy: 1000 * 60,
     listenerMaxConnectionsPerIP: -1,
     listenerMinLegacyProtocol: 1,
-    listenerMaxLegacyProtocol: 18,
+    listenerMaxLegacyProtocol: 22,
     listeningPort: 443,
 
     serverUpdateFrequency: 25,
-    serverName: "An unnamed server",
+    serverName: "Test Server",
     serverGamemode: "FFA",
     serverChatEnabled: true,
 
